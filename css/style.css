@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 1px solid black;     
+}
+
+.row{
+    background-color: pink;   
+    
+}
+
+[class*="col"]{
+    border: 1px solid black;
+}
+
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
