@@ -5,22 +5,33 @@
 }
 
 .container{
-    border: 1px solid black;     
-}
-
-.row{
-    background-color: pink;   
-    
+    /* border: 1px solid black;      */
+    min-height: 150px;
 }
 
 [class*="col"]{
     border: 1px solid black;
+    min-height: 150px;
+    background-color: pink;   
 }
 
-
-.col{
+.col, 
+[class*="col-"]{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.col-6 > [class*="col-"]{
+    background-color: salmon;
+    border: 1px solid #fff;
+}
+
+.container .row:nth-child(5) > .col-6{
+    padding: 4px;
+}
+
+
+
+
 
