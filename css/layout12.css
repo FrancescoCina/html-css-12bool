@@ -127,6 +127,11 @@
     margin-left: calc(100% / 12 * 1);
 }
 
+.col-offset-0{
+    margin-left: 0;
+}
+
+
 /* MEDIA QUERY */
 
 /* SMALL SCREEN */
@@ -231,6 +236,9 @@
     }
     .col-sm-offset-1{
         margin-left: calc(100% / 12 * 1);
+    }    
+    .col-sm-offset-0{
+        margin-left: 0;
     }
 }
 
@@ -339,6 +347,9 @@
     .col-md-offset-1{
         margin-left: calc(100% / 12 * 1);
     }
+    .col-md-offset-0{
+        margin-left: 0;
+    }
 }
 /* -------------------------- */
 
@@ -444,6 +455,9 @@
     }
     .col-lg-offset-1{
         margin-left: calc(100% / 12 * 1);
+    }
+    .col-lg-offset-0{
+        margin-left: 0;
     }
 
 
@@ -555,6 +569,9 @@
     .col-xl-offset-1{
         margin-left: calc(100% / 12 * 1);
     }
+    .col-xl-offset-0{
+        margin-left: 0;
+    }
 }
 
 /* -------------------- */  
@@ -663,58 +680,8 @@
     .col-xxl-offset-1{
         margin-left: calc(100% / 12 * 1);
     }
+    .col-xxl-offset-0{
+        margin-left: 0;
+    }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* EXTRA UTILS */
-
-/* Justify */
-.start{
-    justify-content: flex-start;
-}
-.center{
-    justify-content: center;
-}
-.end{
-    justify-content: flex-end;
-}
-.around{
-    justify-content: space-around;
-}
-.between{
-    justify-content: space-between;
-}
-.evenly{
-    justify-content: space-evenly;
-}
-
-/* Ordine da dare all'Item (no al container-padre)*/
-.first{
-    order:-1;
 }
